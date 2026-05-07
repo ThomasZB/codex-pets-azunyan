@@ -11,11 +11,16 @@ Azunyan is a custom Codex pet packaged for the Codex app.
 
 ## Install
 
-Copy the pet folder into your Codex pets directory:
+Install all sizes with one command:
 
 ```bash
-mkdir -p ~/.codex/pets/azunyan
-cp pet.json spritesheet.webp ~/.codex/pets/azunyan/
+curl -fsSL https://raw.githubusercontent.com/ThomasZB/codex-pets-azunyan/main/install.sh | sh
+```
+
+Install one size:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ThomasZB/codex-pets-azunyan/main/install.sh | sh -s -- azunyan-90
 ```
 
 Restart Codex if the pet does not appear immediately.
@@ -36,6 +41,5 @@ Available variants:
 Install a variant the same way:
 
 ```bash
-mkdir -p ~/.codex/pets/azunyan-90
-cp variants/azunyan-90/pet.json variants/azunyan-90/spritesheet.webp ~/.codex/pets/azunyan-90/
+curl -fsSL https://raw.githubusercontent.com/ThomasZB/codex-pets-azunyan/main/install.sh | sh -s -- azunyan-90
 ```
