@@ -2,6 +2,16 @@
 
 Azunyan is a custom Codex pet packaged for the Codex app.
 
+## Preview
+
+![Azunyan contact sheet](preview/contact-sheet.png)
+
+## Size Previews
+
+| 80% | 90% | 105% |
+| --- | --- | --- |
+| ![Azunyan 80% contact sheet](variants/azunyan-80/contact-sheet.png) | ![Azunyan 90% contact sheet](variants/azunyan-90/contact-sheet.png) | ![Azunyan 105% contact sheet](variants/azunyan-105/contact-sheet.png) |
+
 ## Files
 
 - `pet.json` - Codex pet manifest
